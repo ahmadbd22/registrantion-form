@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center my-4 bg-light">
+          <h2>Registration Form</h2>
+        </div>
+      </div>
+      <!-- Start Form -->
+      <form name="registrationForm" class="form-group">
+        <!-- Applicants Information Fields -->
+        <div class="row bg-light">
+          <div class="col-md-12">
+            <h4>Applicant Information</h4>
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="name" class="font-weight-bold">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="designation" class="font-weight-bold">Designation:</label>
+            <input
+              type="text"
+              name="designation"
+              id="designation"
+              placeholder="Designation"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="organization" class="font-weight-bold">Organization:</label>
+            <input
+              type="text"
+              name="organization"
+              id="organization"
+              placeholder="Organization"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="office" class="font-weight-bold">Office Address:</label>
+            <input
+              type="text"
+              name="office"
+              id="office"
+              placeholder="Office Address"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="mailingAddress" class="font-weight-bold">Mailing Address:</label>
+            <input
+              type="text"
+              name="mailingAddress"
+              id="mailingAddress"
+              placeholder="Mailing Address"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="telephone" class="font-weight-bold">Telephone:</label>
+            <input
+              type="text"
+              name="telephone"
+              id="telephone"
+              placeholder="Telephone"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="cellPhone" class="font-weight-bold">Cellphone:</label>
+            <input
+              type="text"
+              name="cellPhone"
+              id="cellPhone"
+              placeholder="Cell Phone"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="email" class="font-weight-bold">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              class="form-control"
+            />
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="educationQualification" class="font-weight-bold">Education Qualification:</label>
+            <input
+              type="text"
+              name="educationQualification"
+              id="educationQualification"
+              placeholder="Education Qualification"
+              class="form-control"
+            />
+          </div>
+        </div>
+        <!-- Technical Skills Fields -->
+        <div class="row bg-light">
+          <div class="col-md-12">
+            <h4>Technical Skills</h4>
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="computerSkills" class="font-weight-bold">Level of Computer Skills:</label>
+            <select class="form-control" id="computerSkills">
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Experienced</option>
+            </select>
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="gisExperience" class="font-weight-bold">GIS Experience:</label>
+            <select class="form-control" id="gisExperience">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="gisExperienceLevel" class="font-weight-bold">Level of GIS Experience:</label>
+            <select class="form-control" id="gisExperienceLevel">
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Experienced</option>
+            </select>
+          </div>
+        </div>
+        <!-- Payment Information Fields -->
+        <div class="row bg-light">
+          <div class="col-md-12">
+            <h4>Payment Information</h4>
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="fees" class="font-weight-bold">Payment of fees selected by:</label>
+            <select class="form-control" id="computerSkills">
+              <option>Self</option>
+              <option>Manager</option>
+              <option>Department Head</option>
+            </select>
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="paymentType" class="font-weight-bold">Payment Type:</label >
+            <select class="form-control" id="paymentType">
+              <option>Card</option>
+              <option>Visa</option>
+              <option>Cash</option>
+            </select>
+          </div>
+          <div class="col-md-6 mb-4">
+            <label for="transactionId" class="font-weight-bold">Transaction ID:</label>
+            <input
+              type="text"
+              name="transactionId"
+              id="transactionId"
+              placeholder="Transaction ID"
+              class="form-control"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h5 class="d-inline-block bg-light">Note:</h5>
+          </div>
+        </div>
+        <ol>
+          <li class="bg-secondary mb-2">
+            During training period GPAD will provide snacks and tea.
+          </li>
+          <li class="bg-secondary mb-2">
+            Participants will received all lectures and training materials soft
+            copy DVD version
+          </li>
+          <li class="bg-secondary mb-2">
+            GPAD will highly encourage you to bring your own laptop during
+            training period
+          </li>
+        </ol>
+        <!-- Buttons -->
+        <div class="row">
+          <div class="col-md-12 bg-secondary">
+            <input type="submit" class="btn btn-primary" value="Submit">
+            <input type="button" class="btn btn-danger" value="Back">
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--container end-->
+  </body>
+</html>
